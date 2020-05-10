@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_programmed_electronics_medium"
+		texturefile = "gfx/interface/technologies/programmed_electronics.dds"
+	}
+}
