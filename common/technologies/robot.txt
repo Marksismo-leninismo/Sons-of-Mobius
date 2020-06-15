@@ -63,11 +63,9 @@ technologies = {
 	fiw_robians = {
 
 		enable_equipments = {
+			empty_robians_equipment_1
 			robians_equipment_1
 		}
-		#enable_equipments = {
-		#	gw_tank_equipment
-		#}
 		
 		enable_subunits = {
 			robians
@@ -83,7 +81,7 @@ technologies = {
 				load_oob = "unlock_robians"
 			}
 		}
-		research_cost = 2.5
+		research_cost = 3
 		
 		ai_will_do = {
 			factor = 1
@@ -108,7 +106,7 @@ technologies = {
 	quantum_processor = {
 
 		# small boost to research speed
-		research_speed_factor = 0.02
+		research_speed_factor = 0.04
 		
 		path = {
 			leads_to_tech = light_robots_1
@@ -119,7 +117,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
+		research_cost = 3
 		
 		ai_will_do = {
 			factor = 6

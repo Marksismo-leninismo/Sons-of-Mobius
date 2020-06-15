@@ -1,0 +1,6 @@
+robotization_dicision_cat = {
+	
+	visible = { 
+		has_tech = fiw_robians
+	}
+}

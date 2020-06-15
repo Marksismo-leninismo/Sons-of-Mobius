@@ -1,7 +1,27 @@
 spriteTypes = {	
-
+	### robot folder technologys
 	spriteType = {
 		name = "GFX_programmed_electronics_medium"
 		texturefile = "gfx/interface/technologies/programmed_electronics.dds"
+	}
+	spriteType = {
+		name = "GFX_robotization_machine_medium"
+		texturefile = "gfx/interface/technologies/sorryidonthaveiconforthistechilladditlater.dds"
+	}
+	spriteType = {
+		name = "GFX_robians_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/robians_equipment_1.dds"
+	}
+	spriteType = {
+		name = "GFX_quantum_processor_medium"
+		texturefile = "gfx/interface/technologies/quantum_processor.dds"
+	}
+	spriteType = {
+		name = "GFX_fiw_robians_medium"
+		texturefile = "gfx/interface/technologies/empty_robians_equipment_1.dds"
+	}
+	spriteType = {
+		name = "GFX_empty_robians_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/empty_robians_equipment_1.dds"
 	}
 }

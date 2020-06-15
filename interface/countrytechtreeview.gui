@@ -59,12 +59,12 @@ guiTypes = {
 				
 				clipping = no
 
-				#iconType = {
-				#	name ="infantry_techtree_bg"
-				#	spriteType = "GFX_infantry_techtree_bg"
-				#	position = { x=0 y=0 }
-				#	allwaystransparent = yes
-				#}
+				iconType = {
+					name ="infantry_techtree_bg"
+					spriteType = "GFX_infantry_techtree_bg"
+					position = { x=0 y=0 }
+					allwaystransparent = yes
+				}
 				
 				instantTextBoxType = {
 					name = "infantry_subtitle_weapons"
@@ -269,6 +269,43 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}	
+
+
+			gridboxtype = {
+				name = "tech_special_forces_tree"
+				position = { x = 140 y = 1140 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}	
+
+			gridboxtype = {
+				name = "motorised_infantry_tree"
+				position = { x = 140 y = 620 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "marines_tree"
+				position = { x = 140 y = 825 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+
+			gridboxtype = {
+				name = "tech_mountaineers_tree"
+				position = { x = 140 y = 930 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "paratroopers_tree"
+				position = { x = 140 y = 1035 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 			
 			gridboxtype = {
 				name = "first_energy_weapon_tree"

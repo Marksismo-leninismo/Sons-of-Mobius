@@ -1,0 +1,25 @@
+robotization_dicision_cat = {
+
+	convert_soldiers_to_robians = {
+	
+		fire_only_once = no
+		
+		available = {
+			has_manpower > 1000
+			has_equipment = {
+				empty_robians_equipment_1 > 99
+			}
+		}
+		remove_effect = {
+			add_manpower = -1000
+			add_equipment_to_stockpile = {
+				type = empty_robians_equipment_1
+				amount = -100
+			}
+			add_equipment_to_stockpile = {
+				type = robians_equipment_1
+				amount = 100
+			}
+		}
+	}
+}

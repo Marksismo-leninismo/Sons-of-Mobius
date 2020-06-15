@@ -1,4 +1,5 @@
 spriteTypes = {
+	### Robot folder
 	spriteType = {
 		name = "GFX_robot_folder_tab"
 		textureFile = "gfx//interface//techtree/techtree_robot_tab.dds"
@@ -12,6 +13,7 @@ spriteTypes = {
 		name = "GFX_robot_folder_icon"
 		textureFile = "gfx//interface//techtree//icons//robot_folder_icon.dds"
 	}		
+	### Small technology research icon
 	spriteType = {
 		name = "GFX_technology_robot_folder_small_unavailable_item_bg"
 		textureFile = "gfx//interface//techtree//tech_robot_unavailable_item_bg.dds"
@@ -31,16 +33,6 @@ spriteTypes = {
 		name = "GFX_technology_robot_folder_small_branch_item_bg"
 		textureFile = "gfx/interface/techtree/tech_robot_branch_item_bg.dds"
 	}	
-
-	spriteType = {
-		name = "GFX_technology_robot_folder_foreign_unavailable_item_bg"
-		textureFile = "gfx/interface/techtree/robot_technology_unavailable_item_bg.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_technology_robot_folder_unavailable_item_bg"
-		textureFile = "gfx/interface/techtree/robot_technology_unavailable_item_bg.dds"
-	}	
 	
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_robot_folder_small_currently_researching_item_bg"
@@ -53,4 +45,37 @@ spriteTypes = {
 		play_on_show = yes
 		pause_on_loop = 0.0
 	}
+	### Eq technology research icon
+	spriteType = {
+		name = "GFX_technology_robot_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/robot_technology_unavailable_item_bg.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_technology_robot_folder_researched_item_bg"
+		textureFile = "gfx//interface//techtree//robot_technology_researched_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_robot_folder_available_item_bg"
+		textureFile = "gfx//interface//techtree//robot_technology_available_item_bg.dds"
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_robot_folder_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//robot_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+
+	#spriteType = {
+	#	name = "GFX_technology_robot_folder_unavailable_item_bg"
+	#	textureFile = "gfx/interface/techtree/robot_technology_unavailable_item_bg.dds"
+	#}	
 }
