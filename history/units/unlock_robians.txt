@@ -33,9 +33,54 @@ units = {
 		division_template = "Militia"
 		start_experience_factor = 0.8
 	}
+	division = {	
+		location = 9279 # London ONT
+		division_template = "Militia"
+		start_experience_factor = 0.8
+	}
+	division = {	
+		location = 9279 # London ONT
+		division_template = "Militia"
+		start_experience_factor = 0.8
+	}
+	division = {	
+		location = 9279 # London ONT
+		division_template = "Militia"
+		start_experience_factor = 0.8
+	}
+	division = {	
+		location = 9279 # London ONT
+		division_template = "Militia"
+		start_experience_factor = 0.8
+	}
 }
 
 units = {
+	division = {	
+		location = 9279 # London ONT
+		division_template = "Robian division A"
+		start_experience_factor = 0.8
+	}
+	division = {	
+		location = 9279 # London ONT
+		division_template = "Robian division A"
+		start_experience_factor = 0.8
+	}
+	division = {	
+		location = 9279 # London ONT
+		division_template = "Robian division A"
+		start_experience_factor = 0.8
+	}
+	division = {	
+		location = 9279 # London ONT
+		division_template = "Robian division A"
+		start_experience_factor = 0.8
+	}
+	division = {	
+		location = 9279 # London ONT
+		division_template = "Robian division A"
+		start_experience_factor = 0.8
+	}
 	division = {	
 		location = 9279 # London ONT
 		division_template = "Robian division A"

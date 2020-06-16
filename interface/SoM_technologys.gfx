@@ -24,4 +24,28 @@ spriteTypes = {
 		name = "GFX_empty_robians_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/empty_robians_equipment_1.dds"
 	}
+	spriteType = {
+		name = "GFX_light_robots_1_medium"
+		texturefile = "gfx/interface/technologies/unknown_tech_eq_item.dds"
+	}
+	spriteType = {
+		name = "GFX_light_robots_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/unknown_tech_eq_item.dds"
+	}
+	spriteType = {
+		name = "GFX_light_robots_2_medium"
+		texturefile = "gfx/interface/technologies/unknown_tech_eq_item.dds"
+	}
+	spriteType = {
+		name = "GFX_light_robots_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/unknown_tech_eq_item.dds"
+	}
+	spriteType = {
+		name = "GFX_light_robots_3_medium"
+		texturefile = "gfx/interface/technologies/unknown_tech_eq_item.dds"
+	}
+	spriteType = {
+		name = "GFX_light_robots_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/unknown_tech_eq_item.dds"
+	}
 }

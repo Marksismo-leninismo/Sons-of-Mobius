@@ -435,15 +435,12 @@ technologies = {
 	}
 	light_robots_1 = {
 
-		#enable_equipments = {
-		#	light_robots_equipment_1
-		#}
 		enable_equipments = {
-			gw_tank_equipment
+			light_robots_equipment_1
 		}
-		#enable_subunits = {
-		#	light_robots
-		#}
+		enable_subunits = {
+			light_robots
+		}
 		path = {
 			leads_to_tech = power_station
 			research_cost_coeff = 1
@@ -451,9 +448,9 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-			#hidden_effect = {
-			#	load_oob = "unlock_light_robots"
-			#}
+			hidden_effect = {
+				load_oob = "unlock_light_robots"
+			}
 		}
 		research_cost = 2
 		
@@ -503,12 +500,12 @@ technologies = {
 	}
 	light_robots_2 = {
 
-		#enable_equipments = {
-		#	light_robots_equipment_2
-		#}
 		enable_equipments = {
-			gw_tank_equipment
+			light_robots_equipment_2
 		}
+		#enable_equipments = {
+		#	gw_tank_equipment
+		#}
 		path = {
 			leads_to_tech = guidance_system
 			research_cost_coeff = 1

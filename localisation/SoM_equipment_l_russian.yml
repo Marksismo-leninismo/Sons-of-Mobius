@@ -1,7 +1,10 @@
-l_russian:
+﻿l_russian:
  group_robot_title:0 "Роботы"
  empty_robians_equipment_1:0 "Пустые робианцы"
  empty_robians_equipment_1_desc:0 "Материалы и детали для превращения мобианцев в робианцев."
  robians_equipment_1:0 "Робианцы"
  robians_equipment_1_desc:0 "Робианцы это бывшие мобианцы, подвергнувшиеся роботизации всего тела. Машины, с остатками разума живого, но строго подчиняющийся приказам."
+ light_robots_1:0 "Легкие Роботы I"
+ light_robots_2:0 "Легкие Роботы II"
+ light_robots_3:0 "Легкие Роботы III"
  
