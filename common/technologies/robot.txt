@@ -113,11 +113,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = medium_robots_1
+			leads_to_tech = medium_robot_1
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 3
+		research_cost = 3.5
 		
 		ai_will_do = {
 			factor = 6
@@ -140,31 +140,28 @@ technologies = {
 			robot_techs
 		}
 	}
-	medium_robots_1 = {
+	medium_robot_1 = {
 
-		#enable_equipments = {
-		#	medium_robots_equipment_1
-		#}
 		enable_equipments = {
-			gw_tank_equipment
+			medium_robot_equipment_1
 		}
-		#enable_subunits = {
-		#	medium_robots
-		#}
+		enable_subunits = {
+			medium_robots
+		}
 		path = {
 			leads_to_tech = identification_system_friend_or_foe
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = heavy_robots_1
+			leads_to_tech = heavy_robot_1
 			research_cost_coeff = 1
 		}
 
 		on_research_complete = {
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-			#hidden_effect = {
-			#	load_oob = "unlock_medium_robots"
-			#}
+			hidden_effect = {
+				load_oob = "unlock_medium_robots"
+			}
 		}
 		research_cost = 2
 		
@@ -190,17 +187,14 @@ technologies = {
 			cat_medium_robot
 		}
 	}
-	heavy_robots_1 = {
+	heavy_robot_1 = {
 
-		#enable_equipments = {
-		#	heavy_robots_equipment_1
-		#}
 		enable_equipments = {
-			gw_tank_equipment
+			heavy_robot_equipment_1
 		}
-		#enable_subunits = {
-		#	heavy_robots
-		#}
+		enable_subunits = {
+			heavy_robots
+		}
 		path = {
 			leads_to_tech = energy_ring_reactor
 			research_cost_coeff = 1
@@ -208,9 +202,9 @@ technologies = {
 
 		on_research_complete = {
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-			#hidden_effect = {
-			#	load_oob = "unlock_heavy_robots"
-			#}
+			hidden_effect = {
+				load_oob = "unlock_heavy_robots"
+			}
 		}
 		research_cost = 2
 		
@@ -232,9 +226,23 @@ technologies = {
 		}
 	}
 	energy_ring_reactor = {
-
+		
+		heavy_robots = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			max_organisation = 3
+			default_morale = 0.05
+		}
+		category_robots = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			max_organisation = 4
+			default_morale = 0.05
+		}
+		
+		
 		path = {
-			leads_to_tech = heavy_robots_2
+			leads_to_tech = heavy_robot_2
 			research_cost_coeff = 1
 		}
 		
@@ -258,16 +266,13 @@ technologies = {
 			cat_mega_robot
 		}
 	}
-	heavy_robots_2 = {
+	heavy_robot_2 = {
 
-		#enable_equipments = {
-		#	heavy_robots_equipment_2
-		#}
 		enable_equipments = {
-			gw_tank_equipment
+			heavy_robot_equipment_2
 		}
 		path = {
-			leads_to_tech = heavy_robots_3
+			leads_to_tech = heavy_robot_3
 			research_cost_coeff = 1
 		}
 
@@ -287,13 +292,10 @@ technologies = {
 			cat_heavy_robot
 		}
 	}
-	heavy_robots_3 = {
+	heavy_robot_3 = {
 
-		#enable_equipments = {
-		#	heavy_robots_equipment_3
-		#}
 		enable_equipments = {
-			gw_tank_equipment
+			heavy_robot_equipment_3
 		}
 		path = {
 			leads_to_tech = mega_robot_1
@@ -318,12 +320,16 @@ technologies = {
 	}
 	identification_system_friend_or_foe = {
 
+		category_robots = {
+			max_organisation = 2
+			default_morale = 0.05
+		}
 		path = {
-			leads_to_tech = medium_robots_2
+			leads_to_tech = medium_robot_2
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
+		research_cost = 2
 		
 		ai_will_do = {
 			factor = 4
@@ -341,11 +347,11 @@ technologies = {
 			robot_techs
 		}
 	}
-	medium_robots_2 = {
+	medium_robot_2 = {
 
-		#enable_equipments = {
-		#	medium_robots_equipment_2
-		#}
+		enable_equipments = {
+			medium_robot_equipment_2
+		}
 		enable_equipments = {
 			gw_tank_equipment
 		}
@@ -376,11 +382,23 @@ technologies = {
 	}
 	reinforced_main_caliber = {
 
-		path = {
-			leads_to_tech = medium_robots_3
-			research_cost_coeff = 1
+
+
+		heavy_robots = {
+			soft_attack = 0.04
+			hard_attack = 0.04
+			ap_attack = 0.04
+		}
+		medium_robots = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			ap_attack = 0.1
 		}
 		
+		path = {
+			leads_to_tech = medium_robot_3
+			research_cost_coeff = 1
+		}
 		research_cost = 2.5
 		start_year = 3240
 		
@@ -400,11 +418,11 @@ technologies = {
 			robot_techs
 		}
 	}
-	medium_robots_3 = {
+	medium_robot_3 = {
 
-		#enable_equipments = {
-		#	medium_robots_equipment_3
-		#}
+		enable_equipments = {
+			medium_robot_equipment_3
+		}
 		enable_equipments = {
 			gw_tank_equipment
 		}
@@ -474,6 +492,12 @@ technologies = {
 	power_station = {
 
 		
+		light_robots = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			max_organisation = 4
+			default_morale = 0.05
+		}
 		path = {
 			leads_to_tech = light_robots_2
 			research_cost_coeff = 1
@@ -503,9 +527,6 @@ technologies = {
 		enable_equipments = {
 			light_robots_equipment_2
 		}
-		#enable_equipments = {
-		#	gw_tank_equipment
-		#}
 		path = {
 			leads_to_tech = guidance_system
 			research_cost_coeff = 1
@@ -541,11 +562,8 @@ technologies = {
 	}
 	drone_robots_1 = {
 
-		#enable_equipments = {
-		#	drone_robots_equipment_1
-		#}
 		enable_equipments = {
-			gw_tank_equipment
+			drone_robots_equipment_1
 		}
 		path = {
 			leads_to_tech = rocket_weaponry
@@ -578,11 +596,10 @@ technologies = {
 	}
 	rocket_weaponry = {
 
-		#enable_equipments = {
-		#	drone_robots_equipment_1
-		#}
-		enable_equipments = {
-			gw_tank_equipment
+		air_cas_present_factor = 0.20
+		category_robots = {
+			soft_attack = 0.05
+			hard_attack = 0.05
 		}
 		path = {
 			leads_to_tech = drone_robots_2
@@ -615,11 +632,8 @@ technologies = {
 	}
 	drone_robots_2 = {
 
-		#enable_equipments = {
-		#	drone_robots_equipment_2
-		#}
 		enable_equipments = {
-			gw_tank_equipment
+			drone_robots_equipment_2
 		}
 		path = {
 			leads_to_tech = mega_robot_1
@@ -653,6 +667,10 @@ technologies = {
 	guidance_system = {
 
 		
+		category_robots = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
 		path = {
 			leads_to_tech = light_robots_3
 			research_cost_coeff = 1
@@ -683,11 +701,8 @@ technologies = {
 	}
 	light_robots_3 = {
 
-		#enable_equipments = {
-		#	light_robots_equipment_3
-		#}
 		enable_equipments = {
-			gw_tank_equipment
+			light_robots_equipment_3
 		}
 		path = {
 			leads_to_tech = self_repair_system
@@ -727,19 +742,22 @@ technologies = {
 	}
 	androids_1 = {
 
-		#enable_equipments = {
-		#	androids_equipment_3
-		#}
 		enable_equipments = {
-			gw_tank_equipment
+			androids_equipment_1
 		}
-		
-		#enable_subunits = {
-		#	androids
-		#}
+		enable_subunits = {
+			androids
+		}
 		research_cost = 3
 		start_year = 3243
 		
+
+		on_research_complete = {
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			hidden_effect = {
+				load_oob = "unlock_androids"
+			}
+		}
 		ai_will_do = {
 			factor = 1
 			
@@ -766,7 +784,14 @@ technologies = {
 		}
 	}
 	self_repair_system = {
-
+		
+		category_robots = {
+			default_morale = 0.1
+		}
+		robot_maintenance_company = {
+			reliability_factor = 0.08
+			equipment_capture_factor = 0.12
+		}
 		path = {
 			leads_to_tech = mega_robot_1
 			research_cost_coeff = 1
@@ -801,21 +826,11 @@ technologies = {
 	}
 	mega_robot_1 = {
 
-		#enable_equipments = {
-		#	mega_robot_equipment_1
-		#}
 		enable_equipments = {
-			gw_tank_equipment
+			mega_robot_equipment_1
 		}
-		#enable_subunits = {
-		#	light_robots
-		#}
-
-		on_research_complete = {
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-			#hidden_effect = {
-			#	load_oob = "unlock_mega_robot"
-			#}
+		enable_subunits = {
+			mega_robot
 		}
 		research_cost = 2
 		start_year = 3245

@@ -1,0 +1,19 @@
+division_template = {
+	name = "Mega Robot Division"
+
+	regiments = {
+		heavy_robots = { x = 0 y = 0 }
+		heavy_robots = { x = 0 y = 1 }
+        heavy_robots = { x = 0 y = 2 }
+		medium_robots = { x = 1 y = 0 }
+		medium_robots = { x = 1 y = 1 }
+		medium_robots = { x = 1 y = 2 }
+		mega robot = { x = 2 y = 0 }
+	}
+division_template = {
+	name = "Mega Robot"
+
+	regiments = {
+		mega robot = { x = 0 y = 0 }
+	}
+}
