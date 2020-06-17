@@ -1,10 +1,10 @@
 sub_units = {
 
-	light_robots = {
+	mega_robot = {
 		sprite = robots
 		map_icon_category = armored
-		priority = 2020
-		ai_priority = 2020
+		priority = 4023
+		ai_priority = 1023
 		
 		type = {
 			armor
@@ -12,7 +12,7 @@ sub_units = {
 		
 		group = robot
 		
-		transport = light_robots_equipment
+		transport = mega_robot
 		
 		categories = {
 			category_front_line
@@ -20,19 +20,43 @@ sub_units = {
 			category_robots
 		}
 		
-		combat_width = 2
-		max_strength = 23
-		max_organisation = 40
-		default_morale = 0.3
+		combat_width = 10
+		max_strength = 100
+		max_organisation = 100
+		default_morale = 0.4
 		
-		training_time = 30
-		suppression = 4
-		weight = 0.5
+		training_time = 90
+		suppression = 20
+		weight = 80
 		
-		supply_consumption = 0.12
+		supply_consumption = 0
 	
 		need = {
-			light_robots_equipment = 80
+			mega_robot = 1
+		}
+		
+		mountain = 	{
+		    attack = -0.15
+			defence = -0.15
+		}
+		jungle = {
+		    attack = -0.25
+			movement = -0.25
+		}
+		marsh = {
+		    attack = -0.10
+		}
+		urban = {
+			attack = 0.2
+		}
+		river = { 
+			attack = 0.1
+		}
+		amphibious = { 
+			attack = 0.2
+		}
+		fort = {
+			attack = 0.35
 		}
 		
 	}
