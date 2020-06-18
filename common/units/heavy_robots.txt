@@ -32,7 +32,7 @@ sub_units = {
 		supply_consumption = 0.31
 	
 		need = {
-			heavy_robot_equipment = 24
+			heavy_robot_equipment = 18
 		}
 
 		forest = {

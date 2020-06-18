@@ -458,6 +458,8 @@ technologies = {
 		}
 		enable_subunits = {
 			light_robots
+			robot_recon
+			robot_maintenance_company
 		}
 		path = {
 			leads_to_tech = power_station
@@ -563,7 +565,7 @@ technologies = {
 	drone_robots_1 = {
 
 		enable_equipments = {
-			drone_robots_equipment_1
+			drone_equipment_1
 		}
 		path = {
 			leads_to_tech = rocket_weaponry
@@ -633,7 +635,7 @@ technologies = {
 	drone_robots_2 = {
 
 		enable_equipments = {
-			drone_robots_equipment_2
+			drone_equipment_2
 		}
 		path = {
 			leads_to_tech = mega_robot_1
